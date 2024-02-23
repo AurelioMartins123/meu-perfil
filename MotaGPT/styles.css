@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    color: #c4c4c4;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #222222;
+    color: #cccccc;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 2rem;
+}
+
+section {
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255)
+}
+
+p {
+    color: rgb(212, 212, 212);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li:before {
+    content: "\2022"; /* Código Unicode para um bullet point */
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
